@@ -34,5 +34,16 @@
 ## 注意
 默认的AI攻击性挺强的(配合[祖安宝典](https://github.com/zangxx66/zuanDictionary)使用效果更好,乐)
 
+如果反并发有TypeError: 'NoneType' object is not iterable，就去tool.py里改这一段
+![image](https://user-images.githubusercontent.com/68325229/195911092-1c386757-75ef-4795-b5c9-6f4124156e72.png)
+
+加进去这两句应该就行了
+
+`handle = t.find_handler(event)`
+
+和`if handle:`
+
+注意缩进
+
 ##
 特别感谢一下@雨中流浪汗大佬的帮助，帮我改了不少代码
