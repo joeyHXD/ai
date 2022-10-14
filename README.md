@@ -19,6 +19,8 @@
 因为缝了很多东西，有些代码可能可以删掉，但是我没仔细研究
 
 ## 安装指南
+安装依赖`pip install retrying`
+
 在`hoshino/modules/`的目录中克隆本插件`git clone https://github.com/joeyHXD/ai.git`
 
 在`hoshino`的目录中加入[反并发`tool.py`](https://github.com/lhhxxxxx/hoshino_tool),注意是在hoshino目录下面，不是modules
