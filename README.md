@@ -12,16 +12,18 @@
 
 如果想花钱提升AI智力，可以去申请腾讯和图灵的密钥(要钱的)，不然默认从青云客(免费，不用填密钥)获取
 
-缝了一个反并发，这个可能需要更新新版hoshino，我不确定
+缝了一个反并发，这个需要[反并发插件](https://github.com/lhhxxxxx/hoshino_tool)
 
-缝了一个反[eqa](https://github.com/pcrbot/erinilis-modules/tree/master/eqa)的并发
+还缝了一个反[eqa](https://github.com/pcrbot/erinilis-modules/tree/master/eqa)的并发
 
 因为缝了很多东西，有些代码可能可以删掉，但是我没仔细研究
 
 ## 安装指南
-在hoshino/module/的牡蛎中克隆本插件`git clone https://github.com/joeyHXD/ai.git`
+在`hoshino/modules/`的牡蛎中克隆本插件`git clone https://github.com/joeyHXD/ai.git`
 
-在 `HoshinoBot\hoshino\config\__bot__.py` 文件的 `MODULES_ON` 加入 `ai,`
+在`hoshino`的牡蛎中加入[反并发`tool.py`](https://github.com/lhhxxxxx/hoshino_tool),注意是在hoshino目录下面，不是modules
+
+在 `HoshinoBot\hoshino\config\__bot__.py` 文件的 `MODULES_ON` 加入 `ai,`，反并发不需要改`__bot__.py`
 
 然后重启 HoshinoBot，并在想要使用的QQ群里输入指令 `启用 ai`和`调整AI概率 10`
 
