@@ -14,7 +14,7 @@
 
 缝了一个反并发，这个需要[反并发插件](https://github.com/lhhxxxxx/hoshino_tool)
 
-还缝了一个反[eqa](https://github.com/pcrbot/erinilis-modules/tree/master/eqa)的并发
+还缝了一个反[eqa](https://github.com/pcrbot/erinilis-modules/tree/master/eqa)的并发，如果没装eqa就在`setting.py`里把`eqa_db_dir`那行改为`eqa_db_dir = ""`
 
 因为缝了很多东西，有些代码可能可以删掉，但是我没仔细研究
 
