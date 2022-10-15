@@ -41,7 +41,7 @@
 
 `handle = t.find_handler(event)`
 
-和`if handle:` `t.find_handler(event)`
+和`if handle:` `service_funcs.extend(handle)`
 
 注意缩进
 
