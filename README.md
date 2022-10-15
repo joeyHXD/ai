@@ -37,11 +37,11 @@
 如果反并发有TypeError: 'NoneType' object is not iterable，就去tool.py里改这一段
 ![image](https://user-images.githubusercontent.com/68325229/195911092-1c386757-75ef-4795-b5c9-6f4124156e72.png)
 
-加进去这两句应该就行了
+去掉原本的service_funcs.extend(t.find_handler(event))，改成这三行应该就行了
 
 `handle = t.find_handler(event)`
 
-和`if handle:`
+和`if handle:` `t.find_handler(event)`
 
 注意缩进
 
