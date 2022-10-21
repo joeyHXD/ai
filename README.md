@@ -8,15 +8,12 @@
 记得在`__bot__.py`里给你家bot取个名字哦，听到自己名字bot必定回复
 
 ## 介绍
-把真寻的AI对话功能和星乃的[AI对话插件](https://github.com/pcrbot/aichat)缝了起来
 
 如果想花钱提升AI智力，可以去申请腾讯和图灵的密钥(要钱的)，不然默认从青云客(免费，不用填密钥)获取
 
-缝了一个反并发，这个需要[反并发插件](https://github.com/lhhxxxxx/hoshino_tool)
+加了一个反并发，这个需要[反并发插件](https://github.com/lhhxxxxx/hoshino_tool)
 
-还缝了一个反[eqa](https://github.com/pcrbot/erinilis-modules/tree/master/eqa)的并发，如果没装eqa就在`setting.py`里把`eqa_db_dir`那行改为`eqa_db_dir = ""`
-
-因为缝了很多东西，有些代码可能可以删掉，但是我没仔细研究
+还加了一个反[eqa](https://github.com/pcrbot/erinilis-modules/tree/master/eqa)的并发，如果没装eqa就在`setting.py`里把`eqa_db_dir`那行改为`eqa_db_dir = ""`
 
 ## 安装指南
 安装依赖`pip install retrying`
